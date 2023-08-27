@@ -12,7 +12,6 @@ import cv2
 # images.
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
   
-# https://github.com/Itseez/opencv/blob/master
 # /data/haarcascades/haarcascade_eye.xml
 # Trained XML file for detecting eyes
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml') 
